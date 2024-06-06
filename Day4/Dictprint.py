@@ -1,3 +1,6 @@
+#This program prints values from dictonary based on keys
+
+
 Dict={"name":"avisar","age":15,"address":"parsa"}
 choice=input("Enter a choice: name, age, or address\n").lower()
 
