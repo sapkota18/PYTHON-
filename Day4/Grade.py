@@ -1,3 +1,4 @@
+#This program prints Grade based on Marks 
 sub1 = float(input("Mark of sub 1:"))
 sub2 = float(input("Mark of sub 2:"))
 sub3 = float(input("Mark of sub 3:"))
