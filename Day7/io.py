@@ -1,3 +1,4 @@
+
 # f = open("D:\PYTHON\Day7\demo.txt", "r")
 # data = f.read(5)
 
