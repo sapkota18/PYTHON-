@@ -12,6 +12,7 @@ with sr.Microphone() as source:
             audio = recognizer.listen(source)
             if keyboard.is_pressed('enter'):
                 print("Alt key pressed. Stopping...")
+                
                 break
             text = recognizer.recognize_google(audio)
             print("You said: " + text)
