@@ -1,6 +1,6 @@
 class Battery:
     def battery_info(self):
-        return "Battery is fully charged"
+        return "Battery is fully charged fully"
 
 class Engine:
      def engine_info(self):
