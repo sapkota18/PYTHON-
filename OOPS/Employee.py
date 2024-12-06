@@ -22,8 +22,6 @@ class Employee:
         print(f"Salary: {self.salary}")
         print(f"Department: {self.department}")
 
-
-
 class Manager(Employee):
     def __init__(self, employee_id, name, salary, department, team_size):
         super().__init__(employee_id, name, salary, department)
@@ -40,8 +38,6 @@ class Manager(Employee):
         super().display_details()
         print(f"Team Size: {self.team_size}")
 
-
-
 class Developer(Employee):
     def __init__(self, employee_id, name, salary, department, programming_language):
         super().__init__(employee_id, name, salary, department)
@@ -57,8 +53,6 @@ class Developer(Employee):
         """Override method to display developer details."""
         super().display_details()
         print(f"Programming Language: {self.programming_language}")
-
-
 
 def main():
    
