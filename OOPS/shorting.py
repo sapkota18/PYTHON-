@@ -5,7 +5,6 @@ def find_smallest_and_largest(array):
     smallest = array[0]
     largest = array[0]
     
-   
     for num in array:
         if num < smallest:
             smallest = num
