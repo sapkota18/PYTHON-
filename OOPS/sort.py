@@ -13,6 +13,7 @@ def find_smallest_and_largest(array):
     
     return smallest, largest
 
+
 smallest, largest = find_smallest_and_largest(array)
 print("Smallest element:", smallest)
 print("Largest element:", largest)
